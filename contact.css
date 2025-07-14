@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "SUSE", sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(./bg_bggenerator_com.png);
+    background-size: 2000px;
+}
+
+.nav {
+    backdrop-filter: blur(15px);
+    padding: 1rem;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.31);
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: #ffff;
+}
+
+.nav ul h2 {
+    border: 2px solid #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.container {
+    text-align: center;
+    margin: 2rem auto;
+    width: 24rem;
+    height: 28rem;
+    color: #fff;
+    box-shadow: 0px 0px 18px rgba(10, 10, 10, 0.99);
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+}
+
+.title {
+    color: #ffffff;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 1.5rem;
+}
+
+.email {
+    padding-top: .7rem;
+    color: rgba(213, 213, 213, 0.808);
+}
+
+.email span{
+    padding-top: .7rem;
+    color: #ffff;
+}
+
+span h5.social{
+     color: #ffffff;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+
+
+
+/*footer*/
+
+footer {
+    background-color: #070b1482;
+    color: #ffff;
+    padding: 14px;
+    text-align: center;
+    font-weight: 500;
+}
+
+footer span {
+    color: #1247b9;
+    font-weight: 900;
+}
